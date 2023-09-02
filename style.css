@@ -422,6 +422,7 @@ font-family:Rajdhani, "Helvetica Neue", Helvetica;
 .sec-3 .card {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   fill: #F4F4F4;
+  width: 18rem;
 }
 .sec-3 .fill-color {
   position: absolute;
@@ -926,8 +927,55 @@ color: #878787;
  
 }
 
+
+
+@media (max-width: 1460px){
+  header .navigation1 .navigation1-items1 a{
+  font-size: 16px;
+}
+}
+
+@media (max-width: 1366px){
+  header .navigation1 .navigation1-items1 a{
+  font-size: 14px;
+}
+  .sec-3 .container .row .col-md-3 .card{
+    width: 16rem;
+  }
+}
+
+@media (max-width: 1290px){
+  header .navigation1 .navigation1-items1 a{
+    font-size: 12.5px;
+  }
+  
+  .button-2{
+    width: 110px;
+  }
+
+  .enrlnow{
+    width: 150px;
+  }
+
+  .herobtn{
+    width: 170px;
+  }
+}
+
+@media (max-width: 1152px){
+  header .navigation1 .navigation1-items1 a{
+  font-size: 11px;
+}
+  .sec-3 .container .row .col-md-3 .card{
+    width: 14rem;
+  }
+}
+
+
+
+
 /* QUERY FOR TABLET */
-@media (max-width: 820px) {
+@media (max-width: 900px) {
 
 .sec-3{
   display: none;
@@ -943,15 +991,108 @@ color: #878787;
   margin-left: 0;
  }
 
+ .sec-5{
+  display: none;
+}
 
+.carousel3{
+  display: initial;
+}
+
+}
+
+/* 1284×2778 pixels at 460ppi */
+@media only screen and (max-width: 430px) and (max-height: 932px) and (-webkit-device-pixel-ratio: 3) {
+  .carousel1{
+    display: none;
+  }
+
+  .carousel2{
+    display: initial;
+  }
+
+
+ 
+
+    .carousel3{
+    display: initial;
+  }
+
+ 
+  .cnt{
+    font-size: 16px;
+  }
+  
+ 
+ .sec-2 .container .row .d-flex img{
+  width: 180px;
+  height: auto;
+ }
+
+  .sec2 {
+   text-align: center;
+  }
+  
+  .home1 .content1 h1 {
+    font-size: 46px;
+    line-height: 40px;
+  }
+
+  .navigation1-items1{
+    line-height: 0px;
+
+  }
+
+  .wor{
+    gap: 10px;
+    justify-content: center;
+    align-items:center ;
+  }
+
+  .wor h2{
+    font-size: 16px;
+    margin: 0;
+    line-height: 1;
+     font-weight: 600;
+  
+  }
+
+  .contact-info{
+    display: none;
+  }
+
+  .phonecntcs{
+    display: flex;
+  }
+
+  .ftrline{
+    display: flex;
+  }
+
+
+  .phone p, .email p {
+   font-size: 12px;
+  }
+  
+  .phone, .email {
+   display: block;
+   text-align: center;
+  }
+  
+  .phone img, .email img {
+    width: 30px;
+    height: auto;
+  }
+
+  .footer-section .usefullinks{
+    margin-top: 15px;
+  }
 
 }
 
 
-
-
 /* QUERY FOR PHONES */
-@media (max-width: 414px){
+@media (max-width: 500px){
 
   .carousel1{
     display: none;
@@ -962,9 +1103,7 @@ color: #878787;
   }
 
 
-  .sec-5{
-    display: none;
-  }
+ 
 
     .carousel3{
     display: initial;
